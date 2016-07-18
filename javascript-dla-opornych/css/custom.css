@@ -25,9 +25,12 @@ header .container {
     position: relative;
 }
 
-.vertically-centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+@media (min-width: 1200px) {
+    .container {
+        width: 1440px;
+    }
+}
+
+#editor, #editor2 {
+    height: 200px;
 }

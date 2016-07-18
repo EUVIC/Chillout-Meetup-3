@@ -20,16 +20,16 @@ module.exports = function(grunt) {
 
 		watch: {
 			js: {
-				files: [ '*.js' ]
+				files: [ '**/*.js' ]
 			},
 			css: {
-				files: [ '*.css' ]
+				files: [ '**/*.css' ]
 			},
 			html: {
-				files: [ '*.html']
+				files: [ '**/*.html']
 			},
 			markdown: {
-				files: [ '*.md' ]
+				files: [ '**/*.md' ]
 			},
 			options: {
 				livereload: true

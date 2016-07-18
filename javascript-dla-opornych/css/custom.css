@@ -1,0 +1,33 @@
+.navbar-custom {
+    padding: 5px;
+}
+
+.navbar-custom.affix {
+    padding: 5px;
+}
+
+footer .footer-above {
+    padding-top: 15px;
+}
+
+footer .footer-col {
+     margin-bottom: 0px;
+}
+
+footer .footer-below {
+    padding: 5px 0;
+}
+
+header .container {
+    padding-top: 80px;
+    padding-bottom: 0px;
+    min-height: 860px;
+    position: relative;
+}
+
+.vertically-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

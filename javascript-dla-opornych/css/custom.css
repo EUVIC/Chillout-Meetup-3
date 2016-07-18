@@ -42,3 +42,11 @@ header .container {
 .next-slide, .next-slide:hover {
     color: white;
 }
+
+.f-30 {
+    font-size: 30px;
+}
+
+.presentation-list {
+    margin-left: 30px;
+}

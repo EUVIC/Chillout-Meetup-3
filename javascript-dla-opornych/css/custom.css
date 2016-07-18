@@ -34,3 +34,11 @@ header .container {
 #editor, #editor2 {
     height: 200px;
 }
+
+.intro-text {
+    text-align: center;
+}
+
+.next-slide, .next-slide:hover {
+    color: white;
+}
